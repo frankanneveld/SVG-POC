@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "svg-svg-poc"
+    }
+  },
+  "defaultProject": "svg-svg-poc",
+  "cli": {
+    "analytics": false
+  }
 }
