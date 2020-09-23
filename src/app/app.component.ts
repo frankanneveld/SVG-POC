@@ -20,5 +20,9 @@ export class AppComponent {
         name: 'square',
         path: '../assets/square.svg'
       },
+      {
+        name: 'Duke',
+        path: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Duke_%28Java_mascot%29_waving.svg'
+      }
     ]
 }
