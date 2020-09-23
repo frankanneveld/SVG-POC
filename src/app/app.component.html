@@ -1,7 +1,7 @@
 <div>
   <h3>Select a Icon</h3>
   <select (change)="selectedIcon($event.target.value)">
-    <option value="" selected>-- none ---</option>
+    <option selected>-- none ---</option>
     <option *ngFor="let icon of icons" [value]="icon.path">{{icon.name}}</option>
   </select>
 </div>
