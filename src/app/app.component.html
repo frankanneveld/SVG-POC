@@ -1,5 +1,5 @@
 <div>
-  <h3>Select a Icon</h3>
+  <h3>Select an icon</h3>
   <select (change)="selectedIcon($event.target.value)">
     <option selected>-- none ---</option>
     <option *ngFor="let icon of icons" [value]="icon.path">{{icon.name}}</option>
