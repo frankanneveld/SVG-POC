@@ -21,9 +21,4 @@ export class AppComponent {
         path: '../assets/square.svg'
       },
     ]
-
-  public selectedIcon(icon: string):void {
-    this.icon = (!!icon) ? icon : '';
-  }
-
 }
